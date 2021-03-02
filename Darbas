@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Užduotis: aktyvi kontaktų forma</title>
+        <script type="text/javascript" src="scripts.js"></script>
+        <link rel="stylesheet" src="styles.css"/>
+    </head>
+    <body>
+        <form target="" onsubmit="checkForm()">
+        <label>VARDAS</label>
+            <p><input name="text" required="VARDAS"  maxlength="30" minlength="30" ><br><br></p>
+            <p><input type="pateikti" value="pateikti"></p>
+
+         <label>PAVARDĖ</label>
+            <p><input name="text" required="PAVARDĖ"  maxlength="20" minlength="3" ><br><br> </p>
+            <p><input type="pateikti" value="pateikti"></p>
+
+         <label>GIMIMO DATA</label>
+           <p><input name="text" required="GIMIMO DATA"  maxlength=50 minlength="3"><br><br> </p>
+           <p><input type="pateikti" value="pateikti"></p>
+
+         <label>ŠALIS</label>
+           <p><input name="text" required="ŠALIS"  maxlength="20" minlength="3" ><br><br> </p>
+           <p><input type="pateikti" value="pateikti"></p>
+
+        <label>PAŠTO KODAS</label>
+           <p><input name="text" required="PAŠTO KODAS"  maxlength="20" minlength="3" ><br><br> </p>
+           <p><input type="pateikti" value="pateikti"></p>
+
+        <label>TELEFONO NUMERIS</label>
+
+            <p><input name="text" required="TELEFONO NUMERIS"  maxlength="9" minlength="9"></p>
+            <p><input type="pateikti" value="pateikti"></p>
+
+        <label>GATVĖ</label>
+            <p><input name="text" required="GATVĖ"  maxlength="20" minlength="3" ><br><br> </p>
+            <p><input type="pateikti" value="pateikti"></p>
+
+            <p>AR ESATE TIKRAS, KAD NORITE PATEIKTI UŽSAKYMĄ?</p>
+
+<button onclick="myFunction()">pasirinkti</button>
+
+<script>
+function myFunction() {
+  confirm("PATEIKTI UŽSAKYMO DUOMENIS?");
+}
+</script>
+        </form>
+    </body>
+</html>
+
+
+
